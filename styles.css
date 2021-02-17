@@ -1,0 +1,170 @@
+html, body {
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .wrapper {
+    position: relative;
+    
+  }
+
+  .need-a-dog-sitter {
+    text-align: left;
+    margin: 0 93px 5px 0;
+    font-family: Quicksand;
+    font-size: 2em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .find-a-trusted-site {
+    max-width: 100%;
+    width: 600px;
+    margin: 5px 0 12.5px 2px;
+    font-family: Quicksand;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  
+  .wrapper .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+  }
+
+  .learn-more-copy {
+    
+    font-family: Quicksand;
+    font-size: 1em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin: 12.5px 208.5px 0 2px;
+  padding: 16.5px 26.5px 16px 27px;
+  border-radius: 2px;
+  background-color: #de6c17;
+  float: left;
+  }
+
+.our-services {
+  margin: 15px 41px 5px 41.5px;
+  font-family: Quicksand;
+  font-size: 2em;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #36413c;
+}
+.local-trusted-pet {
+  font-family: Quicksand;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5e6e66;
+}
+
+.dog-activity {
+  margin: 12.5px 84.5px 5px 12.5px;
+  font-family: Quicksand;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #36413c;
+}
+
+.description {
+  margin: 5px 12.5px 10px;
+  font-family: Quicksand;
+  font-size: 1em;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #5e6e66;
+}
+
+.learn-more {
+    height: 11.5px;
+    margin: 10px 4.5px 0 12.5px;
+    font-family: Quicksand;
+    font-size: 1em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #de6c17;
+  }
+
+  .col-md-4 {
+    
+    margin-bottom: 4%;
+}
+
+  @media (min-width: 360px) and (max-width: 1000px) { 
+    .col-md-4 {
+        display:block;
+        margin-left: 22%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .local-trusted-pet {
+        width:100%;
+        height:100%;
+        text-align:center;
+        font-size:0;
+        background:#aae;
+        white-space: nowrap;
+    }
+
+    .find-a-trusted-site {
+        max-width: 100%;
+        width: 450px;
+        white-space: nowrap;
+   }
+
+   }
+
+   @media (min-width: 360px) and (max-width: 600px) { 
+    .col-md-4 {
+        display:block;
+        margin-left: 9%;
+        margin-top: 4%;
+        margin-bottom: 14% !important;
+    }
+}
